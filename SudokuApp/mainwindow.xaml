@@ -1,0 +1,18 @@
+﻿<Window x:Class="SudokuApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SudokuApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="55*"/>
+            <ColumnDefinition Width="738*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Generate Puzzle" Grid.Column="1" HorizontalAlignment="Left" Margin="159.8,391,0,0" VerticalAlignment="Top" Width="100" Height="19"/>
+        <Button Content="Solve" Grid.Column="1" HorizontalAlignment="Left" Margin="424.8,391,0,0" VerticalAlignment="Top" Width="100" Height="19"/>
+
+    </Grid>
+</Window>
